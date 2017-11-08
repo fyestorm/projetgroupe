@@ -13,7 +13,7 @@ if (!empty($email) && !empty($nom) && !empty($prenom) && !empty($text) && !empty
 	    'X-Mailer: PHP/' . phpversion();
 		
 		mail('s.guillon@aformac-vichy.fr', $objet, $text,$headers);
-		$retour = 'message envoye';
+		$retour = 'message envoyé';
 	}
 	else{
 		$retour = "veuillez entrer une adresse mail vailde ";

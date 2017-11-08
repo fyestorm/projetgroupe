@@ -2,7 +2,7 @@
 
 function parsecsv($fileId){
 
-	$file = fopen("../data/".$fileId.".csv", "r");
+	$file = fopen("data/".$fileId.".csv", "r");
 	$tabResult = [];
 	$tabLibelles = [];
 	$ligne = 0;
