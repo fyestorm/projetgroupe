@@ -19,13 +19,13 @@ Après un tronc commun de 2 mois, le stagiaire se spécialise afin de devenir De
               </div>  
              </div>             
             </div>
-            <div class="container" style="height: 300px;">
+            <div class="container">
              <div class="row">
           	<?php  
           	for ($i=0; $i < count(json_decode(parsecsv('techno'))); $i++) { 
 			//boucle sur le nb d'occurence l'argument de la fonction est le nom du fichier csv
 			echo '<div class="col-md-4">
-			              <div class="card border-secondary mb-3" style="max-width: 20rem;">
+        <div class="card border-secondary mb-3" ">
 				<div class="card-header bg-primary">'.$techno[$i]->titre.'</div>
 				<div class="card-body text-secondary">
 			         <h4 class="card-title">'.$techno[$i]->techno.'</h4> 	  		        	  	

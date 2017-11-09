@@ -4,9 +4,10 @@ $equipe = json_decode(parsecsv('equipe'));// on appel dans la fonction le nom du
 ?>
 
  <!-- section4 -->
-          	<div class="container-fluid red6">
-          		<h2>Nous</h2>
-                <div class="container red7">
+          	
+          		
+                <div class="container-fluid red7">
+                  <h2>Nous</h2>
            	     <div class="row">
            		   <?php  
             for ($i=0; $i < count(json_decode(parsecsv('equipe'))); $i++) { 
@@ -23,7 +24,7 @@ $equipe = json_decode(parsecsv('equipe'));// on appel dans la fonction le nom du
       }   
       ?>
            	     </div>
-                </div>
+                
           	</div>
           	
 

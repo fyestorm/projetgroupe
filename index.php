@@ -9,40 +9,41 @@
 	</head>
 		<body>
           <header>
-      <!-- debut logo -->
+ 
+      <?php require_once 'include/nav.php' ?>
+      
            <div class="container-fluid red">
-            <div class="container">
+            <div class="container" id="logodepresentation">
               <img src="img/4.png" alt="logo">
             </div>
            </div>
-      <!-- fin de logo -->
-
-       <!-- debut de menu -->
-       <?php require_once 'include/nav.php' ?>
-       <!-- fin de menu -->
+      
           </header>
 
-          <section1 id="formation">
+          <section id="formation">
             <?php require_once 'include/techno.php' ?>
-          </section1>
-          <section2 id="avenir">
+          </section>
+
+          <section id="avenir">
             <?php require_once 'include/avenir.php' ?>
-          </section2>
+          </section>
 
-          <section3>
+          <section id="slider">
              <?php require_once 'include/carousel.php' ?>
-          </section3>
+          </section>
 
-          <section4>
+          <section>
           <?php require_once 'include/equipe.php' ?>
-          </section4>  
-          <section5>
-             <?php require_once 'include/map.php'; ?>
-          </section5>
-            <section6>
-             <?php require_once 'include/formulaire.php'; ?>
+          </section>
 
-          </section6>
+          <section id="googlemap">
+             <?php require_once 'include/map.php'; ?>
+          </section>
+
+            <section>
+             <?php require_once 'include/formulaire.php'; ?>
+          </section>
+
         <footer>
          <?php require_once 'include/footer.php'; ?>
         </footer>

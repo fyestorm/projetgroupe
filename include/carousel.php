@@ -20,7 +20,7 @@ echo '<li data-target=\"#carouselExampleIndicators\" data-slide-to='.$i.'></li>'
 }
 }
 echo '  </ol>';
-echo '  <div class="carousel-inner col-10">';
+echo '  <div class="carousel-inner col-12">';
 for ($i=0; $i < count(json_decode(parsecsv('slide'))); $i++) { 
 //boucle sur le nb d'occurence l'argument de la fonction est le nom du fichier csv
 if ($i == 0) {

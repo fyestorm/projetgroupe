@@ -3,7 +3,7 @@ require_once ('parse_csv.php');
 $avenir = json_decode(parsecsv('avenir'));// on appel dans la fonction le nom du fichier csv à appeler
 ?>
 <!-- section2 -->
-<div class="container-fluid red2">
+<div class="container-fluid red2 text-center">
           	 <div class="container">
           	  <h2>L'avenir</h2>          	
           	 </div>
@@ -23,7 +23,7 @@ $avenir = json_decode(parsecsv('avenir'));// on appel dans la fonction le nom du
           	    </div> 
                </div> 
                <div class="container">
-               	<p></p>
+      
                </div>         	  		
           	  </div>         		  	
                  <!-- section2 -->
